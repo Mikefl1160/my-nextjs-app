@@ -2,41 +2,40 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col">
       <header className="container mx-auto flex justify-between items-center py-6 px-4">
-        <span className="text-2xl font-bold">ClearTest</span>
+        <span className="text-2xl font-bold">CleanTest</span>
         <nav className="space-x-4">
-          <a href="#features" className="text-gray-600 hover:text-black">Features</a>
-          <a href="#contact" className="text-gray-600 hover:text-black">Contact</a>
+          <a href="#" className="text-gray-600 hover:text-black">Home</a>
+          <a href="#" className="text-gray-600 hover:text-black">Products</a>
         </nav>
       </header>
 
       <section className="flex flex-col items-center justify-center flex-1 text-center px-4">
-        <h1 className="text-5xl font-bold mb-4">Smarter Testing for Modern Apps</h1>
-        <p className="mb-8 text-xl">Automate and manage tests with confidence.</p>
-        <a href="#contact" className="px-6 py-3 bg-blue-600 text-white rounded">Get Started</a>
+        <h1 className="text-5xl font-bold mb-4">Clean Products for Passed Tests</h1>
+        <p className="mb-8 text-xl">Stay prepared for any situation</p>
       </section>
 
-      <section id="features" className="container mx-auto py-16 px-4 grid md:grid-cols-3 gap-8 text-center">
-        <div>
-          <img src="/file.svg" alt="" className="mx-auto mb-4 h-12" />
-          <h3 className="text-xl font-semibold mb-2">Easy Authoring</h3>
-          <p>Create tests quickly using an intuitive interface.</p>
+      <section className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-4 pb-16">
+        <div className="border rounded-lg shadow-sm p-6 text-center">
+          <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=400&q=80" alt="Starter Kit" className="mb-4 rounded" />
+          <h3 className="text-xl font-semibold mb-2">Starter Kit</h3>
+          <p>Essential supplies for quick tests on the go.</p>
         </div>
-        <div>
-          <img src="/globe.svg" alt="" className="mx-auto mb-4 h-12" />
-          <h3 className="text-xl font-semibold mb-2">Cross Browser</h3>
-          <p>Run your suites on multiple browsers in the cloud.</p>
+        <div className="border rounded-lg shadow-sm p-6 text-center">
+          <img src="https://images.unsplash.com/photo-1521791055366-0d553872125f?w=400&q=80" alt="Advanced Kit" className="mb-4 rounded" />
+          <h3 className="text-xl font-semibold mb-2">Advanced Kit</h3>
+          <p>Enhanced tools for more precise results.</p>
         </div>
-        <div>
-          <img src="/window.svg" alt="" className="mx-auto mb-4 h-12" />
-          <h3 className="text-xl font-semibold mb-2">Detailed Reports</h3>
-          <p>Understand failures quickly with comprehensive logs.</p>
+        <div className="border rounded-lg shadow-sm p-6 text-center">
+          <img src="https://images.unsplash.com/photo-1558009254-50e1d2c4fd37?w=400&q=80" alt="Pro Kit" className="mb-4 rounded" />
+          <h3 className="text-xl font-semibold mb-2">Pro Kit</h3>
+          <p>Comprehensive set for professionals.</p>
+        </div>
+        <div className="border rounded-lg shadow-sm p-6 text-center">
+          <img src="https://images.unsplash.com/photo-1581091215367-59a37313f3d9?w=400&q=80" alt="Ultimate Kit" className="mb-4 rounded" />
+          <h3 className="text-xl font-semibold mb-2">Ultimate Kit</h3>
+          <p>All-in-one package to handle any testing scenario.</p>
         </div>
       </section>
-
-      <footer id="contact" className="bg-gray-900 text-white text-center py-8">
-        <p className="mb-4">Ready to improve your testing?</p>
-        <a href="mailto:info@example.com" className="px-6 py-3 bg-blue-500 rounded">Contact Us</a>
-      </footer>
     </main>
   );
 }
