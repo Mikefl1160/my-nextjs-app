@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ClearTest - Smarter Testing",
-  description: "Automated testing platform for modern applications",
+  title: "CleanTest - Testing Kits for Every Need",
+  description: "Professional, trustworthy products to ensure you're ready.",
 };
 
 export default function RootLayout({
